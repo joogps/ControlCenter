@@ -49,7 +49,7 @@ struct ContentView: View {
                     Toggle(systemName: "wifi", active: true)
                     Toggle(systemName: "battery.25", active: true)
                     Toggle(systemName: "moon.fill", active: false)
-                    Toggle(systemName: "lock", active: true)
+                    Toggle(systemName: "lock.rotation", active: true)
                 }.padding(.horizontal, 20)
                     .frame(height: 90)
                 
